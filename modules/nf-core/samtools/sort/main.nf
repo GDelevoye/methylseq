@@ -1,4 +1,5 @@
 process SAMTOOLS_SORT {
+    errorStrategy 'ignore'
     tag "$meta.id"
     label 'process_medium'
 
