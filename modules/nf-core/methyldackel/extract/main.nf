@@ -1,5 +1,4 @@
 process METHYLDACKEL_EXTRACT {
-    errorStrategy 'ignore'
     tag "$meta.id"
     label 'process_medium'
 
